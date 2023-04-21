@@ -1,6 +1,7 @@
 # credit-risk-classification
 Employ supervised machine learning leveraging logistic regression to predict creditworthiness of borrowers.
-<img width="593" alt="Screen Shot 2023-04-21 at 5 42 11 PM" src="https://user-images.githubusercontent.com/44728723/233739076-9477541d-5d58-46f6-997d-152306236158.png">
+
+<img width="1200" alt="Screen Shot 2023-04-21 at 5 42 11 PM" src="https://user-images.githubusercontent.com/44728723/233739076-9477541d-5d58-46f6-997d-152306236158.png">
 
 ## Overview of the Analysis
 The purpose of this analysis was to train and evaluate the performance of a logistic regression model in predicting the creditworthiness of borrowers based on historical lending activity from a peer-to-peer lending services company.
