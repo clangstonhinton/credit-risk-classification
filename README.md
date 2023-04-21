@@ -21,12 +21,17 @@ Below are the results of the two logistic regression models deployed in the anal
   - **Precision Scores: 1.00 for Class 0** ('healthy loan') and **0.86 for Class 1** ('risky loan')<p>The precision score is the ratio of true positives to the total number of predicted positives. For Class 0, the precision is 1.00, which indicates that all of the instances that were predicted as belonging to Class 0 were actually members of that class. For Class 1, the precision is 0.86, which indicates that 86% of the instances that were predicted as belonging to Class were actually members of that class. In other words, 14% of the Class 1 predictions were incorrectly assigned to this class.
   
   - **Recall Scores: 1.00 for Class 0** ('healthy loan') and **0.91 for Class 1** ('risky loan')<p>The recall is the ratio of true positives to the total number of actual positives. For Class 0, the recall is 1.00 which means that all instances that  belonged to Class 0 were correctly classified by the model. For Class 1, the recall is 0.91, which means that 91% of the instances that belonged to Class 1 were correctly classified by the model.
+    
+  - **F-1 Scores: 1.00 for Class 0** ('healthy loan') and **0.88 for Class 1** ('risky loan')<p> The F1 score is the mean the combined precision and recall scores. For Class 0, the F1 score os 1.00, which indicates high performance. For Class 1, the F1 score is 0.88, which indicates that the model is not performing as well on this class compared to Class 0.
    
  
-### 2. Machine Learning Model on the Over-Sampled Dataset
-  - Description of Accuracy
-  - Precision Scores
-  - Recall Scores
+### 2. Machine Learning Model on the Oversampled Dataset
+  - **Balanced Accuracy Score: 0.994**<p>text
+    
+  - **Precision Scores: 1.00 for Class 0** ('healthy loan') and **0.85 for Class 1** ('risky loan')<p>Ttext
+  
+  - **Recall Scores: 0.99 for Class 0** ('healthy loan') and **0.99 for Class 1** ('risky loan')<p>text
+   
 
 ## Summary
 
