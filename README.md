@@ -32,7 +32,7 @@ Below are the results of the two logistic regression models deployed in the anal
     
   - **Precision Scores: 1.00 for Class 0** ('healthy loan') and **0.85 for Class 1** ('risky loan')<p>The precision score remains high for Class 0 at 1.00. For Class 1, the precision score actually decreases slightly to 0.85 based on the oversampled data from 0.86 when run on the original data.
   
-  - **Recall Scores: 0.99 for Class 0** ('healthy loan') and **0.99 for Class 1** ('risky loan')<p>The recall score for Class 0 remains unchanged at 1.00. For Class 1, the recall score improves to 0.99 from 0.91 based on the original dataset.
+  - **Recall Scores: 0.99 for Class 0** ('healthy loan') and **0.99 for Class 1** ('risky loan')<p>The recall score for Class 0 remains high but slighly down at 0.99. For Class 1, the recall score improves to 0.99 from 0.91 based on the original dataset.
     
   - **F-1 Scores: 1.00 for Class 0** ('healthy loan') and **0.92 for Class 1** ('risky loan')<p> The F1 score remains at 1.00 for Class 0 and improves to 0.92 for Class 1 (up from 0.88 based on the original data).
 
