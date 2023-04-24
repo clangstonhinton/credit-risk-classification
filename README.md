@@ -6,12 +6,17 @@ Employ supervised machine learning leveraging logistic regression to predict cre
 ## Overview of the Analysis
 The purpose of this analysis was to train and evaluate the performance of a logistic regression model in predicting the creditworthiness of borrowers based on historical lending activity from a peer-to-peer lending services company.
 
-The dataset....(* Explain what financial information the data was on, and what you needed to predict._
+### Data Description:
+ - The dataset contains 77,536 rows of customer financial loan data across 8 feature columns, including: loan_size,	interest_rate,	borrower_income,	debt_to_income,	num_of_accounts,	derogatory_marks,	total_debt, and	loan_status.
 
-The variables...  (* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).)
+ - The "target" variable for the model was the "loan-status" column.  A value of "0" indicates a healthy loan while a value of "1" indicates that the loan has a high risk of defaulting. The original "loan_status" data were unbalanced with 75,036 values of "0" (healthy loans) and 2,500 values of "1" (high risk of defaulting loans).
 
-The process/approach (* Describe the stages of the machine learning process you went through as part of this analysis. * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).)
-
+### Approach:
+ - The data were separated into labels (the predicted target value of "loan_statu) and features (or remaining columns).
+ - The data were split into training and testing sets using scikit learn train_test_split function.
+ - A Logistic Regression model was run on the original data which contained the unbalanced target variables.
+ - The data was then resampled to produce a balanced target variable with 60,035 values for each loan type.
+ - A Logistic Regression model was the run on the resampled training data and test set.
 
 ## Results
 
