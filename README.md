@@ -23,6 +23,8 @@ The purpose of this analysis was to train and evaluate the performance of a logi
 Below are the results of the two logistic regression models deployed in the analysis.
 
 ### 1. Machine Learning Model on the Original Dataset
+<img width="385" alt="Screen Shot 2023-04-24 at 9 19 10 AM" src="https://user-images.githubusercontent.com/44728723/234008469-6c5a4dca-efa3-48e1-9789-b3f752b7a0f9.png">
+
 **Balanced Accuracy Score: 0.952**<p>In logistic regression, the balanced accuracy score is a metric that measures the classification performance of a model on imbalanced datasets. This score is calculated as the average of the recall scores for each class. Recall (also known as sensitivity or true positive rate) is a metric that measures the percentage of positive cases that are correctly classified by the model. By taking the average recall score for each class, the balanced accuracy score gives equal weight to each class, even if the classes are imbalanced.<p>A balanced accuracy score of 0.952 means that the average recall for each class in the classification problem is 0.952. In other words, the model correctly identifies 95.2% of the positive cases and 95.2% of the negative cases, on average. This indicates that the model is performing very well at discriminating between the two classes and has a high level of accuracy on the test dataset.
 **<p>Classification Report</p>**
   <img width="357" alt="Screen Shot 2023-04-24 at 8 44 36 AM" src="https://user-images.githubusercontent.com/44728723/233999851-704fa6d3-af89-436c-9069-76f14dea0c6d.png">
@@ -35,6 +37,8 @@ Below are the results of the two logistic regression models deployed in the anal
    
  
 ### 2. Machine Learning Model on the Oversampled Dataset
+<img width="387" alt="Screen Shot 2023-04-24 at 9 19 17 AM" src="https://user-images.githubusercontent.com/44728723/234008532-9941b3b4-0f5b-46a0-a5ef-913733ce88cc.png">
+
 **Balanced Accuracy Score: 0.994**<p>The balanced accuracy score improves with the oversampled data compared to the original data set which had a balanced accuracy score of 0.952). This indicates the model more accurately distinguishes between the two classes based on the oversampled data.
 
 **<p>Classification Report</p>**
