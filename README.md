@@ -1,5 +1,5 @@
 # credit-risk-classification
-Employ supervised machine learning leveraging logistic regression to predict creditworthiness of borrowers.
+Employ supervised machine learning leveraging **logistic regression** to predict creditworthiness of borrowers.
 
 <img width="1200" alt="Screen Shot 2023-04-21 at 5 42 11 PM" src="https://user-images.githubusercontent.com/44728723/233739076-9477541d-5d58-46f6-997d-152306236158.png">
 
