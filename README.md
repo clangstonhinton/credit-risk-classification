@@ -27,7 +27,6 @@ Below are the results of the two logistic regression models deployed in the anal
 <img width="200" alt="Screen Shot 2023-04-24 at 9 19 10 AM" src="https://user-images.githubusercontent.com/44728723/234008469-6c5a4dca-efa3-48e1-9789-b3f752b7a0f9.png">
 <p>In logistic regression, the balanced accuracy score is a metric that measures the classification performance of a model on imbalanced datasets. This score is calculated as the average of the recall scores for each class. Recall (also known as sensitivity or true positive rate) is a metric that measures the percentage of positive cases that are correctly classified by the model. By taking the average recall score for each class, the balanced accuracy score gives equal weight to each class, even if the classes are imbalanced.<p>A balanced accuracy score of 0.952 means that the average recall for each class in the classification problem is 0.952. In other words, the model correctly identifies 95.2% of the positive cases and 95.2% of the negative cases, on average. This indicates that the model is performing very well at discriminating between the two classes and has a high level of accuracy on the test dataset.
 
-
 **<p>Classification Report</p>**
   <img width="357" alt="Screen Shot 2023-04-24 at 8 44 36 AM" src="https://user-images.githubusercontent.com/44728723/233999851-704fa6d3-af89-436c-9069-76f14dea0c6d.png">
  
@@ -54,6 +53,7 @@ Below are the results of the two logistic regression models deployed in the anal
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+Based on the performance metrics above, the model run on the oversampled dataset appears to perform better. The balanced accuracy score for the oversampled model is higher (0.994) than the original model (0.952), indicating better overall performance in terms of correctly classifying both healthy and risky loans.
+
+Additionally, while the precision score for Class 1 (risky loans) is slightly lower for the oversampled model (0.85 compared to 0.86 for the original model), the recall and F-1 scores are higher for Class 1 in the oversampled model. This indicates that the oversampled model is better at correctly identifying risky loans, which is an important factor in the context of loan classification. Overall, the oversampled model is the recommended model to use for this case. However, it's worth considering other factors such as the computational cost and feasibility of oversampling the data when deciding on the best model for a specific use case.
+   
