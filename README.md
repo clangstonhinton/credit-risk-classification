@@ -12,11 +12,11 @@ The purpose of this analysis was to train and evaluate the performance of a logi
  - The "target" variable for the model was the "loan-status" column.  A value of "0" indicates a healthy loan while a value of "1" indicates that the loan has a high risk of defaulting. The original "loan_status" data were unbalanced with 75,036 values of "0" (healthy loans) and 2,500 values of "1" (high risk of defaulting loans).
 
 ### Approach:
- - The data were separated into labels (the predicted target value of "loan_statu) and features (or remaining columns).
+ - The data were separated into labels (the predicted target value of "loan_status) and features (or remaining columns).
  - The data were split into training and testing sets using scikit learn train_test_split function.
  - A Logistic Regression model was run on the original data which contained the unbalanced target variables.
- - The data was then resampled to produce a balanced target variable with 60,035 values for each loan type.
- - A Logistic Regression model was the run on the resampled training data and test set.
+ - The data was then resampled/oversampled to produce a balanced target variable with 60,035 values for each loan type.
+ - A Logistic Regression model was the run on the oversampled training data and test set.
 
 ## Results
 
